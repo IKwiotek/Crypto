@@ -25,7 +25,7 @@ function App() {
               <Route path="/register"> <Register /> </Route>
               <Route path="/forgotpassword"> <ForgotPassword /> </Route>
               <PrivateRoute path="/profile"> <Profile /> </PrivateRoute>
-              <PrivateRoute path="/"> <Home /> </PrivateRoute>
+              <Route path="/"> <Home /> </Route>
             </Switch>
           </div>
         </Router>
