@@ -30,7 +30,7 @@ function App() {
               <Route path="/firstpartyeducation"> <FirstPartyEducation /> </Route>
               <Route path="/thirdpartyeducation"> <ThirdPartyEducation /> </Route>
               {/*  locking down home */}
-              <PrivateRoute exact path="/" component={Home} />
+              <Route exact path="/" component={Home} />
             </Switch>
           </div>
         </Router>
