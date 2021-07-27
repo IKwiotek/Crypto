@@ -82,8 +82,6 @@ export const HeaderToolbar = () => {
                         {/* drop down for educational pages */}
                         <NavDropdown title="Education" id="nav-dropdown">
                             <NavDropdown.Item href="/firstpartyeducation">First Party Education</NavDropdown.Item>
-                            <NavDropdown.Divider />
-                            <NavDropdown.Item href="/thirdpartyeducation">Third Party Education</NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
 

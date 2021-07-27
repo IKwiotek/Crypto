@@ -67,7 +67,7 @@ export default function Register() {
                             {/* user phone number*/}
                             <Form.Group id="tel">
                                 <Form.Label>Phone Number*</Form.Label>
-                                <Form.Control type="tel" placeholder="111-111-1111" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" ref={phoneNumberRef} required />
+                                <Form.Control type="tel" placeholder="1112223333" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" ref={phoneNumberRef} required />
                             </Form.Group>
 
                             {/*user password */}
